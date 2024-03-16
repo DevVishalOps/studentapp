@@ -12,10 +12,10 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'mvn clean test'
+                sh 'mvn clean install'
                 echo 'Hello World'
             }
-        }
+        }
 
-    }
+    }
 }
