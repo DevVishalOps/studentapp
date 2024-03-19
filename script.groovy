@@ -32,7 +32,8 @@ pipeline {
                         sh 'scp -v /var/lib/jenkins/workspace/student-app/target/studentapp-2.2-SNAPSHOT.war root@ip-172-31-43-117:/opt/apache-tomcat-9.0.87/webapps'
                     }
                 }
-            }
-        }
+            }
+        }
     }
 }
+
