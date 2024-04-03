@@ -24,13 +24,9 @@ pipeline {
             }
         }
         
-        stage('Deploy to EC2') {
+        stage('Deploy') {
             steps {
-                script {
-                    // Copy built artifacts to EC2 instance
-                    sshagent(['ubuntuid']) {
-                        sh 'scp -v /var/lib/jenkins/workspace/student-app/target/studentapp-2.2-SNAPSHOT.war root@ip-172-31-43-117:/opt/apache-tomcat-9.0.87/webapps'
-                    }
+                 echo 'Deploying Stage'
                 }
             }
         }
