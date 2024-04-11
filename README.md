@@ -29,7 +29,7 @@ I have used Maven,Sonarqube and Github for CI/CD .
 
 1.clone this public get repository in your jenkins server
 bash
-git clone https://github.com/iam-Sai-PhapaleStudent-jenkins-pipeline-Project.git 
+git clone 
 #this is groovy script repository 
 
 
