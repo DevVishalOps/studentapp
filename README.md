@@ -28,10 +28,10 @@ I have used Maven,Sonarqube and Github for CI/CD .
 ## Steps
 
 1.clone this public get repository in your jenkins server
-bash
-git clone 
+```bash
+git clone https://github.com/DevVishalOps/studentapp.git
 #this is groovy script repository 
-
+```
 
 2.Create pipline using below steps
     
