@@ -85,13 +85,14 @@ pipeline {
 4.If your facing error running sonarqube then change java version to jdk11-bellsoft
 
 ### Install java-jdk-bellsoft to handle error
-bash
+```bash
 yum install wget epel-release -y
 yum install java -y
 wget https://download.bell-sw.com/java/11.0.4/bellsoft-jdk11.0.4-linux-amd64.rpm
 rpm -ivh bellsoft-jdk11.0.4-linux-amd64.rpm
-
+```
 
 ### change java jdk
-bash 
+```bash 
 alternatives --config java ----#to change java jdk 
+```
